@@ -1,7 +1,7 @@
 #!/bin/bash
 
-configName="$1:-./env-config.js"
-envFile="$2:-./.env"
+configName=${1:-"./env-config.js"}
+envFile=${2:-"./.env"}
 
 CONFIG_NAME=$configName
 ENV_FILE=$envFile
